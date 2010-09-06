@@ -1,0 +1,62 @@
+= Git Magic =
+Ben Lynn
+August 2007
+
+== Vorwort ==
+
+http://git.or.cz/[Git] ist das schweizer  Offiziersmesser unter den Versionskontrollsystemen. Es ist vielfältig einsetzbar, und extrem flexibel. Dadurch ist es etwas komplizierter zu erlernen und meistern
+
+Wie http://de.wikipedia.org/wiki/Arthur_C._Clarke[Arthur C. Clarke] bemerkte: Jede ausreichend fortschrittliche Technologie ist nicht von Magie zu unterscheiden. Genauso wollen wir an Git herangehen.
+Einen neuen Nutzer interessieren die Innereien Gits gar nicht. Wir können es als "magische Blackbox" betrachten die unsere Freunde beeintruckt und unsere Feinde in den Wahnsinn treibt.
+
+Rather than go into details, we provide rough instructions for particular effects. After repeated use, gradually you will understand how each trick works, and how to tailor the recipes for your needs.
+
+.Translations
+
+ - http://docs.google.com/View?id=dfwthj68_675gz3bw8kj[Chinese (Simplified)]: by JunJie, Meng and JiangWei.
+ - link:/~blynn/gitmagic/intl/es/[Spanish]: by Rodrigo Toledo.
+ - http://www.slideshare.net/slide_user/magia-git[Portuguese]: by Leonardo Siqueira Rodrigues [http://www.slideshare.net/slide_user/magia-git-verso-odt[ODT version]].
+
+.Other Editions
+
+ - link:book.html[Single webpage]: barebones HTML, with no CSS.
+ - link:book.pdf[PDF file]: printer-friendly.
+ - http://packages.debian.org/search?searchon=names&keywords=gitmagic[Debian package]: get a fast and local copy of this site. http://packages.ubuntu.com/jaunty/gitmagic[Ubuntu package (Jaunty Jackalope)] also available. Handy http://csdcf.stanford.edu/status/[when this server is offline for maintenance].
+
+=== Thanks! ===
+
+Dustin Sallings, Alberto Bertogli, James Cameron, Douglas Livingstone,
+Michael Budde, Richard Albury, Tarmigan, Derek Mahar, Frode Aannevik, Keith
+Rarick, Andy Somerville, Ralf Recker, Øyvind A. Holm, Miklos Vajna, and
+Sébastien Hinderer contributed corrections and improvements.
+
+Francois Marier maintains the Debian package originally created by Daniel
+Baumann.
+
+JunJie, Meng, JiangWei, Rodrigo Toledo, and Leonardo Siqueira Rodrigues
+worked on translations of this guide.
+
+My gratitude goes to many others for your support and praise. If this were
+a real physical book, I'd quote your generous words on the cover to promote it.
+
+If I've left you out by mistake, please tell me or just send me a patch!
+
+.Free Git hosting
+
+ - http://repo.or.cz/[http://repo.or.cz/] hosts free projects. The first Git hosting site. Founded and maintained by one of the earliest Git developers.
+ - http://gitorious.org/[http://gitorious.org/] is another Git hosting site aimed at open-source projects.
+ - http://github.com/[http://github.com/] hosts open-source projects for free, and private projects for a fee.
+
+Many thanks to each of these sites for hosting this guide.
+
+=== License ===
+
+This guide is released under http://www.gnu.org/licenses/gpl-3.0.html[the GNU General Public License version 3]. Naturally, the source is kept in a Git
+repository, and can be obtained by typing:
+
+ $ git clone git://repo.or.cz/gitmagic.git  # Creates "gitmagic" directory.
+
+or from one of the mirrors:
+
+ $ git clone git://github.com/blynn/gitmagic.git
+ $ git clone git://gitorious.org/gitmagic/mainline.git
